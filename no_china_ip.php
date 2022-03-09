@@ -30,27 +30,27 @@
 }
 ?>
         <?php
-if (httpcode('http://mctg.orgs.hk') == "200")
+if (httpcode('http://mctg.orgs.hk') == "200") /*换成你的域名*/
     {
-        echo "<a href='https://mctg.orgs.hk'><img src='http://us-host.nets.hk/i/2022/03/01/ia2aii.png'></a>";
+        echo "<a href='https://mctg.orgs.hk'>/*换成你的域名*/<img src='http://us-host.nets.hk/i/2022/03/01/ia2aii.png'></a>";/*换成你图床地址，或者继续用我的*/
     }
     else
     {
-    echo "垃圾主机又特么死了，<a href='https://web.archive.org/web/*/mctg.orgs.hk'>点我前往网页时光机</a>";
+    echo "垃圾主机又特么死了，<a href='https://web.archive.org/web/*/mctg.orgs.hk'>点我前往网页时光机</a>";/*把mctg.orgs.hk换成你的域名，前提是在网页时光机里备份了*/
     }
 ?>
         <p>或使用备用博客(没墙但不推荐)</p>
         <?php
-if (httpcode('http://mctgnb.nets.hk') == "200")
+if (httpcode('http://mctgnb.nets.hk') == "200") /*换成你的域名*/
     {
-        echo "<a href='https://mctgnb.nets.hk'><img src='http://us-host.nets.hk/i/2022/03/01/ia2aii.png'></a>";
+        echo "<a href='https://mctgnb.nets.hk'>/*换成你的域名*/<img src='http://us-host.nets.hk/i/2022/03/01/ia2aii.png'></a>"; /*换成你图床地址，或者继续用我的*/
     }
     else
     {
-    echo "垃圾主机又特么死了，<a href='https://web.archive.org/web/*/mctgnb.nets.hk'>点我前往网页时光机</a>";
+    echo "垃圾主机又特么死了，<a href='https://web.archive.org/web/*/mctgnb.nets.hk'>点我前往网页时光机</a>"; /*把mctg.orgs.hk换成你的域名，前提是在网页时光机里备份了*/
     }
 ?>
-<p class="small">本站由 <a href="https://idc.yiluntanbbs.cn/" target="_blank"> 令闻云端提供网站托管及cdn防护加速服务 </a>
+<p class="small">本站由 <a href="https://idc.yiluntanbbs.cn/" target="_blank"> 令闻云端提供网站托管及cdn防护加速服务 </a>/*这行可以选择删除或者不删也行*/
     </center>
     <script>
         var Browser_Agent = navigator.userAgent;
@@ -59,7 +59,7 @@ if (httpcode('http://mctgnb.nets.hk') == "200")
         var a = navigator.browserLanguage;
         if (a != " zh-cn " ){
             // 跳转到英文网站
-            location.href = "https://mctg.orgs.hk" ;
+            location.href = "https://mctg.orgs.hk" ; /*换成你的域名*/
         }
     }
     // 浏览器非ie的情况 
@@ -67,7 +67,7 @@ if (httpcode('http://mctgnb.nets.hk') == "200")
         var b = navigator.language;
         if (b != " zh-CN " ){
             // 跳转到英文网站
-            location.href = "https://mctg.orgs.hk" ;
+            location.href = "https://mctg.orgs.hk" ; /*换成你的域名*/
         }
     }
     </script>
